@@ -752,6 +752,10 @@ html.active {
   transition: background-color .3s, color .3s;
 }
 
+.clink-1::after {
+  background: url('/images/main_banner_figure1.png') no-repeat;
+  display: block;
+}
 .clink-1:hover {
   background-color: #3891b2;
 }
