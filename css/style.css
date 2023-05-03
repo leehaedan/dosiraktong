@@ -752,15 +752,24 @@ html.active {
   transition: background-color .3s, color .3s;
 }
 
-.clink-1::after {
+.clink-1 {
   background: url('/images/main_banner_figure1.png') no-repeat;
-  display: block;
+  background-position-x: 364px;
+  background-position-y: bottom;
 }
 .clink-1:hover {
   background-color: #3891b2;
 }
+.clink-2 {
+  background: url('/images/main_banner_figure2.png') no-repeat;
+  background-position: right bottom;
+}
 .clink-2:hover {
   background-color: #db574f;
+}
+.clink-3 {
+  background: url('/images/main_banner_figure3.png') no-repeat;
+  background-position: right bottom;
 }
 .clink-3:hover {
   background-color: #f0b23a;
@@ -818,20 +827,25 @@ html.active {
 .footer {
   position: relative;
   display: block;
-  padding: 40px 0;
+  padding: 60px 0;
   text-align: center;
   background: #222;
   font-size: 15px;
   color: #666;
 }
-.footer ul {
+.footer-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
-.footer ul li {
+.footer-list li {
   padding: 0 20px;
 }
 .footer ul li:not(:first-child) {
   border-left: 1px solid #666;
+}
+.footer-copy {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #444444;
 }
